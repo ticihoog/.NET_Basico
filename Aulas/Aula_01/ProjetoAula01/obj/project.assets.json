@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/ProjetoAula01.csproj",
+      "projectUniqueName": "/home/ticiana-hoog-paternostro/Documentos/NET_Basico/Aulas/Aula_01/ProjetoAula01/ProjetoAula01.csproj",
       "projectName": "ProjetoAula01",
-      "projectPath": "/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/ProjetoAula01.csproj",
+      "projectPath": "/home/ticiana-hoog-paternostro/Documentos/NET_Basico/Aulas/Aula_01/ProjetoAula01/ProjetoAula01.csproj",
       "packagesPath": "/home/ticiana-hoog-paternostro/.nuget/packages/",
-      "outputPath": "/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/obj/",
+      "outputPath": "/home/ticiana-hoog-paternostro/Documentos/NET_Basico/Aulas/Aula_01/ProjetoAula01/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ticiana-hoog-paternostro/.nuget/NuGet/NuGet.Config"
