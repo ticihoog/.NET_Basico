@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ProjetoAula01/1.0.0": {
+        "runtime": {
+          "ProjetoAula01.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProjetoAula01/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/bin/Debug/net7.0/ProjetoAula01
+/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/bin/Debug/net7.0/ProjetoAula01.deps.json
+/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/bin/Debug/net7.0/ProjetoAula01.runtimeconfig.json
+/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/bin/Debug/net7.0/ProjetoAula01.dll
+/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/bin/Debug/net7.0/ProjetoAula01.pdb
+/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/obj/Debug/net7.0/ProjetoAula01.csproj.AssemblyReference.cache
+/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/obj/Debug/net7.0/ProjetoAula01.GeneratedMSBuildEditorConfig.editorconfig
+/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/obj/Debug/net7.0/ProjetoAula01.AssemblyInfoInputs.cache
+/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/obj/Debug/net7.0/ProjetoAula01.AssemblyInfo.cs
+/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/obj/Debug/net7.0/ProjetoAula01.csproj.CoreCompileInputs.cache
+/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/obj/Debug/net7.0/ProjetoAula01.dll
+/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/obj/Debug/net7.0/refint/ProjetoAula01.dll
+/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/obj/Debug/net7.0/ProjetoAula01.pdb
+/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/obj/Debug/net7.0/ProjetoAula01.genruntimeconfig.cache
+/home/ticiana-hoog-paternostro/Documentos/ProjetoAula01/obj/Debug/net7.0/ref/ProjetoAula01.dll
