@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GvinGPEN6J9QI+enjMDaeH8YcYHBnO913M0VtiUye5+DABul9REI1IamWMsEQBnAHqDj4/vcNv2ta14j0IYjCg==",
+  "dgSpecHash": "F5+HcUAvUpkPIR1uSMe2oS0LU+/Tkhu+0TK0L0bkCVb2M2VyXO8dxc7lqa0CpUOviCJff5cy5MdxZF9QjJTkDw==",
   "success": true,
-  "projectFilePath": "/home/ticiana-hoog-paternostro/Documentos/NET_Basico/Aulas/Aula_01/ProjetoAula01/ProjetoAula01.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/ticianahoog/Residencia/NET_Basico/Aulas/Aula_01/ProjetoAula01/ProjetoAula01.csproj",
+  "expectedPackageFiles": [
+    "/home/ticianahoog/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "/home/ticianahoog/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "/home/ticianahoog/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.14/microsoft.netcore.app.host.linux-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
