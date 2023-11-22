@@ -1,0 +1,30 @@
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/bin/Debug/net8.0/NET-P002
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/bin/Debug/net8.0/NET-P002.deps.json
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/bin/Debug/net8.0/NET-P002.runtimeconfig.json
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/bin/Debug/net8.0/NET-P002.dll
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/bin/Debug/net8.0/NET-P002.pdb
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/obj/Debug/net8.0/NET-P002.GeneratedMSBuildEditorConfig.editorconfig
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/obj/Debug/net8.0/NET-P002.AssemblyInfoInputs.cache
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/obj/Debug/net8.0/NET-P002.AssemblyInfo.cs
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/obj/Debug/net8.0/NET-P002.csproj.CoreCompileInputs.cache
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/obj/Debug/net8.0/NET-P002.sourcelink.json
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/obj/Debug/net8.0/NET-P002.dll
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/obj/Debug/net8.0/refint/NET-P002.dll
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/obj/Debug/net8.0/NET-P002.pdb
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/obj/Debug/net8.0/NET-P002.genruntimeconfig.cache
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/obj/Debug/net8.0/ref/NET-P002.dll
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/P002 - Programa/bin/Debug/net8.0/NET-P002
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/P002 - Programa/bin/Debug/net8.0/NET-P002.deps.json
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/P002 - Programa/bin/Debug/net8.0/NET-P002.runtimeconfig.json
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/P002 - Programa/bin/Debug/net8.0/NET-P002.dll
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/P002 - Programa/bin/Debug/net8.0/NET-P002.pdb
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/P002 - Programa/obj/Debug/net8.0/NET-P002.GeneratedMSBuildEditorConfig.editorconfig
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/P002 - Programa/obj/Debug/net8.0/NET-P002.AssemblyInfoInputs.cache
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/P002 - Programa/obj/Debug/net8.0/NET-P002.AssemblyInfo.cs
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/P002 - Programa/obj/Debug/net8.0/NET-P002.csproj.CoreCompileInputs.cache
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/P002 - Programa/obj/Debug/net8.0/NET-P002.sourcelink.json
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/P002 - Programa/obj/Debug/net8.0/NET-P002.dll
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/P002 - Programa/obj/Debug/net8.0/refint/NET-P002.dll
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/P002 - Programa/obj/Debug/net8.0/NET-P002.pdb
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/P002 - Programa/obj/Debug/net8.0/NET-P002.genruntimeconfig.cache
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-P002/P002 - Programa/obj/Debug/net8.0/ref/NET-P002.dll
