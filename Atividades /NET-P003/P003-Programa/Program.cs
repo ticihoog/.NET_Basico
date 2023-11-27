@@ -35,7 +35,6 @@ class Program
                     GerarRelatorioValorTotalEstoque();
                     break;
                 case "7":
-                    // Opção para sair do programa
                     return;
                 default:
                     Console.WriteLine("Opção inválida. Tente novamente.");
@@ -46,7 +45,7 @@ class Program
 
     static void MostrarMenu()
     {
-        Console.WriteLine("\n------ Menu ------");
+        Console.WriteLine("\n-------- Menu --------");
         Console.WriteLine("1. Cadastrar Produto");
         Console.WriteLine("2. Consultar Produto");
         Console.WriteLine("3. Atualizar Estoque");
