@@ -37,7 +37,7 @@ class Program
                 case "7":
                     return;
                 default:
-                    Console.WriteLine("Opção inválida. Tente novamente.");
+                    Console.WriteLine("Opção inválida. Por favor, ente novamente.");
                     break;
             }
         }
@@ -49,9 +49,9 @@ class Program
         Console.WriteLine("1. Cadastrar Produto");
         Console.WriteLine("2. Consultar Produto");
         Console.WriteLine("3. Atualizar Estoque");
-        Console.WriteLine("4. Relatório: Produtos abaixo de um determinado limite de quantidade");
-        Console.WriteLine("5. Relatório: Produtos com valor entre um mínimo e um máximo");
-        Console.WriteLine("6. Relatório: Valor total do estoque e valor total de cada produto");
+        Console.WriteLine("4. Relatório: Produtos abaixo do limite determinado de quantidade");
+        Console.WriteLine("5. Relatório: Produtos com valor entre um mínimo e um máximo determinado");
+        Console.WriteLine("6. Relatório: Valor total em estoque & valor total por produto");
         Console.WriteLine("7. Sair");
         Console.Write("Escolha uma opção: ");
     }
@@ -77,7 +77,7 @@ class Program
         }
         catch (FormatException)
         {
-            Console.WriteLine("Erro: Formato inválido. Certifique-se de inserir números corretos.");
+            Console.WriteLine("Erro: Formato inválido. Certifique-se de inserir um números corretos.");
         }
         catch (Exception ex)
         {
@@ -117,7 +117,7 @@ class Program
             }
             else
             {
-                Console.Write("Digite a quantidade para adição (+) ou remoção (-): ");
+                Console.Write("Digite a quantidade e a informaçõapara adição (+) ou remoção (-): ");
                 int quantidadeAtualizacao = int.Parse(Console.ReadLine());
 
                 if (produto.Quantidade + quantidadeAtualizacao < 0)
@@ -131,7 +131,7 @@ class Program
         }
         catch (FormatException)
         {
-            Console.WriteLine("Erro: Formato inválido. Certifique-se de inserir números corretos.");
+            Console.WriteLine("Erro: Formato inválido. Se certifique de inserir números corretos.");
         }
         catch (Exception ex)
         {
@@ -150,11 +150,11 @@ class Program
 
             if (produtosAbaixoMinimo.Count == 0)
             {
-                Console.WriteLine("Nenhum produto encontrado abaixo do limite de quantidade.");
+                Console.WriteLine("Nenhum produto encontrado abaixo do limite de quantidade especificada.");
             }
             else
             {
-                Console.WriteLine("\n------ Produtos abaixo do limite de quantidade ------");
+                Console.WriteLine("\n------ Produtos abaixo do limite de quantidade especificada ------");
                 foreach (var produto in produtosAbaixoMinimo)
                 {
                     Console.WriteLine(produto);
@@ -163,7 +163,7 @@ class Program
         }
         catch (FormatException)
         {
-            Console.WriteLine("Erro: Formato inválido. Certifique-se de inserir números corretos.");
+            Console.WriteLine("Erro: Formato inválido. Se certifique de inserir números corretos.");
         }
         catch (Exception ex)
         {
@@ -198,7 +198,7 @@ class Program
         }
         catch (FormatException)
         {
-            Console.WriteLine("Erro: Formato inválido. Certifique-se de inserir números corretos.");
+            Console.WriteLine("Erro: Formato inválido. Se certifique de inserir números corretos.");
         }
         catch (Exception ex)
         {
