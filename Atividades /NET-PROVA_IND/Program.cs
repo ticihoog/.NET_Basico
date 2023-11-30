@@ -43,7 +43,7 @@ class Program
   
 }
 
-static List<Advogado> AdvogadosEntreIdades(List<Advogado> advogados, int idadeMin, int idadeMax)
+    static List<Advogado> AdvogadosEntreIdades(List<Advogado> advogados, int idadeMin, int idadeMax)
     {
         return advogados.Where(a => CalculaIdade(a.DataNascimento) >= idadeMin && CalculaIdade(a.DataNascimento) <= idadeMax).ToList();
     }
@@ -58,4 +58,16 @@ static List<Advogado> AdvogadosEntreIdades(List<Advogado> advogados, int idadeMi
         return clientes.Where(c => c.EstadoCivil.Equals(estadoCivil, StringComparison.OrdinalIgnoreCase)).ToList();
     }
 
+    static List<Cliente> ClientesOrdemAlfabetica(List<Cliente> clientes)
+    {
+        return clientes.OrderBy(c => c.Nome).ToList();
+    }
+    static List<Cliente> ClientesPorProfissao(List<Cliente> clientes, string textoBusca)
+    {
+        return clientes.Where(c => c.Profissao.Contains(textoBusca, StringComparison.OrdinalIgnoreCase)).ToList();
+    }
+    static List<Pessoa> AniversariantesDoMes(List<Advogado> advogados, List<Cliente> clientes, int mesAniversario)
+    {
+         return advogados.Concat<Pessoa>(clientes).Where(p => p.DataNascimento.Month == mes).ToList();
+    }
     
