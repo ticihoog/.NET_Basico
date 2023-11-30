@@ -11,72 +11,76 @@ class Program
             List<Pessoa> pessoas = new List<Pessoa>();
 
 
-    List<Advogado> advogados = new List<Advogado>();
-    List<Cliente> clientes = new List<Cliente>();
+            pessoas.Add(new Advogado("Ricardo Teixeira", new DateTime(1990, 5, 15), "12345678901", "CNA123"));
+            pessoas.Add(new Advogado("Advogado2", new DateTime(1985, 8, 20), "98765432101", "CNA456"));
 
-    advogados.Add(new Advogado("Ricardo Teixeira", new DateTime (1990, 5, 15), "12345678901", "CNA123"));
-    advogados.Add(new Advogado("Dan Sampaio", new DateTime (1985, 8, 20), "98765432101", "CNA456"));
+            pessoas.Add(new Cliente("Rita Santos", new DateTime(1988, 4, 21), "02538968518", "Solteiro", "Professor"));
+            pessoas.Add(new Cliente("Isabela Chaves", new DateTime(1986, 2, 4), "01518715078", "Casado", "Medica"));
 
-    clientes.Add(new Cliente("Rita Santos", new DataTime(1988, 4, 21), "02538968518", "Solteria", "Professora"));
-    clientes.Add(new Cliente("Isabela Chaves", new DataTime(1986, 2 ,4), "01518715078", "Casada" , "Medica" ));
+            Console.WriteLine("Advogados com idade entre 30 e 40 anos:");
+            List<Advogado> advogadosRelatorio1 = AdvogadosEntreIdades(pessoas.OfType<Advogado>(), 30, 40);
+            ImprimirAdvogados(advogadosRelatorio1);
 
-    Console.WriteLine("Advogados com idade entre 30 e 40 anos:");
-    List<Advogado> advogadosRelatorio1 = AdvogadosEntreIdades(advogados, 30, 40);
-    ImprimirAdvogados(advogadosRelatorio1);
-    
-    Console.WriteLine("\nClientes com idade entre 25 e 35 anos:");
-    List<Cliente> clientesRelatorio2 = ClientesEntreIdades(clientes, 25, 35);
-    ImprimirClientes(clientesRelatorio2);
+            Console.WriteLine("\nClientes com idade entre 25 e 35 anos:");
+            List<Cliente> clientesRelatorio2 = ClientesEntreIdades(pessoas.OfType<Cliente>(), 25, 35);
+            ImprimirClientes(clientesRelatorio2);
 
-    Console.WriteLine("\nClientes solteiros:");
-    List<Cliente> clientesRelatorio3 = ClientesPorEstadoCivil(clientes, "Solteiro");
-    ImprimirClientes(clientesRelatorio3);
+            Console.WriteLine("\nClientes solteiros:");
+            List<Cliente> clientesRelatorio3 = ClientesPorEstadoCivil(pessoas.OfType<Cliente>(), "Solteiro");
+            ImprimirClientes(clientesRelatorio3);
 
-    Console.WriteLine("\nClientes em ordem alfabética:");
-    List<Cliente> clientesRelatorio4 = ClientesOrdemAlfabetica(clientes);
-    ImprimirClientes(clientesRelatorio4);
+            Console.WriteLine("\nClientes em ordem alfabética:");
+            List<Cliente> clientesRelatorio4 = ClientesOrdemAlfabetica(pessoas.OfType<Cliente>());
+            ImprimirClientes(clientesRelatorio4);
 
-    Console.WriteLine("\nDigite um texto para buscar clientes por profissão:");
-    string textoBusca = Console.ReadLine();
-    List<Cliente> clientesRelatorio5 = ClientesPorProfissao(clientes, textoBusca);
-    ImprimirClientes(clientesRelatorio5);
+            Console.WriteLine("\nDigite um texto para buscar clientes por profissão:");
+            string textoBusca = Console.ReadLine();
+            List<Cliente> clientesRelatorio5 = ClientesPorProfissao(pessoas.OfType<Cliente>(), textoBusca);
+            ImprimirClientes(clientesRelatorio5);
 
-    Console.WriteLine("\nDigite o mês para verificar aniversariantes:");
-    int mesAniversario = int.Parse(Console.ReadLine());
-    List<Pessoa> aniversariantes = AniversariantesDoMes(advogados, clientes, mesAniversario);
-    ImprimirAniversariantes(aniversariantes);
-  
-}
+            Console.WriteLine("\nDigite o mês para verificar aniversariantes:");
+            int mesAniversario = int.Parse(Console.ReadLine());
+            List<Pessoa> aniversariantes = AniversariantesDoMes(pessoas, mesAniversario);
+            ImprimirAniversariantes(aniversariantes);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Ocorreu um erro: {ex.Message}");
+        }
+    }
 
-    static List<Advogado> AdvogadosEntreIdades(List<Advogado> advogados, int idadeMin, int idadeMax)
+
+   static List<Advogado> AdvogadosEntreIdades(IEnumerable<Advogado> advogados, int idadeMin, int idadeMax)
     {
         return advogados.Where(a => CalculaIdade(a.DataNascimento) >= idadeMin && CalculaIdade(a.DataNascimento) <= idadeMax).ToList();
     }
 
-    static List<Cliente> ClientesEntreIdades(List<Cliente> clientes, int idadeMin, int idadeMax)
+    static List<Cliente> ClientesEntreIdades(IEnumerable<Cliente> clientes, int idadeMin, int idadeMax)
     {
         return clientes.Where(c => CalculaIdade(c.DataNascimento) >= idadeMin && CalculaIdade(c.DataNascimento) <= idadeMax).ToList();
     }
 
-    static List<Cliente> ClientesPorEstadoCivil(List<Cliente> clientes, string estadoCivil)
+    static List<Cliente> ClientesPorEstadoCivil(IEnumerable<Cliente> clientes, string estadoCivil)
     {
         return clientes.Where(c => c.EstadoCivil.Equals(estadoCivil, StringComparison.OrdinalIgnoreCase)).ToList();
     }
 
-    static List<Cliente> ClientesOrdemAlfabetica(List<Cliente> clientes)
+    static List<Cliente> ClientesOrdemAlfabetica(IEnumerable<Cliente> clientes)
     {
         return clientes.OrderBy(c => c.Nome).ToList();
     }
-    static List<Cliente> ClientesPorProfissao(List<Cliente> clientes, string textoBusca)
+
+    static List<Cliente> ClientesPorProfissao(IEnumerable<Cliente> clientes, string textoBusca)
     {
         return clientes.Where(c => c.Profissao.Contains(textoBusca, StringComparison.OrdinalIgnoreCase)).ToList();
     }
-    static List<Pessoa> AniversariantesDoMes(List<Advogado> advogados, List<Cliente> clientes, int mesAniversario)
+
+    static List<Pessoa> AniversariantesDoMes(IEnumerable<Pessoa> pessoas, int mes)
     {
-         return advogados.Concat<Pessoa>(clientes).Where(p => p.DataNascimento.Month == mes).ToList();
+        return pessoas.Where(p => p.DataNascimento.Month == mes).ToList();
     }
 
-    static int CalculaIdade(DateTime dataNascimento)
+static int CalculaIdade(DateTime dataNascimento)
     {
         int idade = DateTime.Now.Year - dataNascimento.Year;
         if (DateTime.Now.DayOfYear < dataNascimento.DayOfYear)
@@ -84,15 +88,16 @@ class Program
 
         return idade;
     }
-        static void ImprimirAdvogados(List<Advogado> advogados)
-   {
+
+    static void ImprimirAdvogados(IEnumerable<Advogado> advogados)
+    {
         foreach (var advogado in advogados)
         {
             Console.WriteLine($"Nome: {advogado.Nome}, Data de Nascimento: {advogado.DataNascimento.ToShortDateString()}, CPF: {advogado.CPF}, CNA: {advogado.CNA}");
         }
     }
 
-    static void ImprimirClientes(List<Cliente> clientes)
+    static void ImprimirClientes(IEnumerable<Cliente> clientes)
     {
         foreach (var cliente in clientes)
         {
@@ -100,7 +105,7 @@ class Program
         }
     }
 
-    static void ImprimirAniversariantes(List<Pessoa> aniversariantes)
+    static void ImprimirAniversariantes(IEnumerable<Pessoa> aniversariantes)
     {
         foreach (var pessoa in aniversariantes)
         {
@@ -108,6 +113,7 @@ class Program
         }
     }
 }
+
 
 class Pessoa
 {
