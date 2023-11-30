@@ -5,7 +5,12 @@ using System.Linq;
 class Program
 {
     static void Main()
-{
+    {
+        try
+        {
+            List<Pessoa> pessoas = new List<Pessoa>();
+
+
     List<Advogado> advogados = new List<Advogado>();
     List<Cliente> clientes = new List<Cliente>();
 
