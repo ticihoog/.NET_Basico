@@ -70,4 +70,18 @@ class Program
     {
          return advogados.Concat<Pessoa>(clientes).Where(p => p.DataNascimento.Month == mes).ToList();
     }
-    
+
+    static int CalculaIdade(DateTime dataNascimento)
+    {
+        int idade = DateTime.Now.Year - dataNascimento.Year;
+        if (DateTime.Now.DayOfYear < dataNascimento.DayOfYear)
+            idade--;
+
+        return idade;
+    }
+        static void ImprimirAdvogados(List<Advogado> advogados)
+    {
+        foreach (var advogado in advogados)
+        {
+            Console.WriteLine($"Nome: {advogado.Nome}, Data de Nascimento: {advogado.DataNasciment}");
+        }
