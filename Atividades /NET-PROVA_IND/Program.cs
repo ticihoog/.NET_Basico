@@ -132,6 +132,7 @@ class Advogado : Pessoa
 {
     public string CNA { get; set; }
 
+
     public Advogado(string nome, DateTime dataNascimento, string cpf, string cna)
     {
         if (!ValidarCPF(cpf))
@@ -145,7 +146,7 @@ class Advogado : Pessoa
 
  private bool ValidarCPF(string cpf)
     {
-        return true;
+         return cpf.Length == 11 && cpf.All(char.IsDigit);
     }
 }
 
