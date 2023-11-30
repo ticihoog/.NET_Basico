@@ -103,3 +103,24 @@ class Program
         }
     }
 }
+
+class Pessoa
+{
+    public string Nome { get; set; }
+    public DateTime DataNascimento { get; set; }
+    public string CPF { get; set; }
+}
+
+class Advogado : Pessoa
+{
+    public string CNA { get; set; }
+
+    public Advogado(string nome, DateTime dataNascimento, string cpf, string cna)
+    {
+        Nome = nome;
+        DataNascimento = dataNascimento;
+        CPF = cpf;
+        CNA = cna;
+    }
+}
+
