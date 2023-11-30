@@ -3,3 +3,13 @@
 /home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/obj/Debug/net8.0/NET-PROVA_IND.AssemblyInfo.cs
 /home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/obj/Debug/net8.0/NET-PROVA_IND.csproj.CoreCompileInputs.cache
 /home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/obj/Debug/net8.0/NET-PROVA_IND.sourcelink.json
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/bin/Debug/net8.0/NET-PROVA_IND
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/bin/Debug/net8.0/NET-PROVA_IND.deps.json
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/bin/Debug/net8.0/NET-PROVA_IND.runtimeconfig.json
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/bin/Debug/net8.0/NET-PROVA_IND.dll
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/bin/Debug/net8.0/NET-PROVA_IND.pdb
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/obj/Debug/net8.0/NET-PROVA_IND.dll
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/obj/Debug/net8.0/refint/NET-PROVA_IND.dll
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/obj/Debug/net8.0/NET-PROVA_IND.pdb
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/obj/Debug/net8.0/NET-PROVA_IND.genruntimeconfig.cache
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/obj/Debug/net8.0/ref/NET-PROVA_IND.dll

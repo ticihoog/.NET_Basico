@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NET-PROVA_IND")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6256f1858ec0796e56f2a7f4bf73e2170937f718")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f79b8c5f2e8c9b84673078d14174ddda0c8caeaa")]
 [assembly: System.Reflection.AssemblyProductAttribute("NET-PROVA_IND")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NET-PROVA_IND")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
