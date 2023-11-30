@@ -114,8 +114,14 @@ static int CalculaIdade(DateTime dataNascimento)
     }
 }
 
+interface IPessoa
+{
+    string Nome { get; set; }
+    DateTime DataNascimento { get; set; }
+    string CPF { get; set; }
+}
 
-class Pessoa
+abstract class Pessoa : IPessoa
 {
     public string Nome { get; set; }
     public DateTime DataNascimento { get; set; }
@@ -128,23 +134,41 @@ class Advogado : Pessoa
 
     public Advogado(string nome, DateTime dataNascimento, string cpf, string cna)
     {
+        if (!ValidarCPF(cpf))
+            throw new ArgumentException("CPF inválido");
+
         Nome = nome;
         DataNascimento = dataNascimento;
         CPF = cpf;
         CNA = cna;
     }
+
+ private bool ValidarCPF(string cpf)
+    {
+        return true;
+    }
 }
+
 
 class Cliente : Pessoa
 {
     public string EstadoCivil { get; set; }
     public string Profissao { get; set; }
-public Cliente(string nome, DateTime dataNascimento, string cpf, string estadoCivil, string profissao)
+
+    public Cliente(string nome, DateTime dataNascimento, string cpf, string estadoCivil, string profissao)
     {
+        if (!ValidarCPF(cpf))
+            throw new ArgumentException("CPF inválido");
+
         Nome = nome;
         DataNascimento = dataNascimento;
         CPF = cpf;
         EstadoCivil = estadoCivil;
         Profissao = profissao;
+    }
+
+    private bool ValidarCPF(string cpf)
+    {
+        return true;
     }
 }
