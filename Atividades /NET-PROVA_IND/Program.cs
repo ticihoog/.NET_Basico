@@ -80,8 +80,26 @@ class Program
         return idade;
     }
         static void ImprimirAdvogados(List<Advogado> advogados)
-    {
+   {
         foreach (var advogado in advogados)
         {
-            Console.WriteLine($"Nome: {advogado.Nome}, Data de Nascimento: {advogado.DataNasciment}");
+            Console.WriteLine($"Nome: {advogado.Nome}, Data de Nascimento: {advogado.DataNascimento.ToShortDateString()}, CPF: {advogado.CPF}, CNA: {advogado.CNA}");
         }
+    }
+
+    static void ImprimirClientes(List<Cliente> clientes)
+    {
+        foreach (var cliente in clientes)
+        {
+            Console.WriteLine($"Nome: {cliente.Nome}, Data de Nascimento: {cliente.DataNascimento.ToShortDateString()}, CPF: {cliente.CPF}, Estado Civil: {cliente.EstadoCivil}, Profissão: {cliente.Profissao}");
+        }
+    }
+
+    static void ImprimirAniversariantes(List<Pessoa> aniversariantes)
+    {
+        foreach (var pessoa in aniversariantes)
+        {
+            Console.WriteLine($"Nome: {pessoa.Nome}, Data de Nascimento: {pessoa.DataNascimento.ToShortDateString()}");
+        }
+    }
+}
