@@ -28,4 +28,8 @@ class Program
         List<Cliente> clientesRelatorio3 = ClientesPorEstadoCivil(clientes, "Solteiro");
         ImprimirClientes(clientesRelatorio3);
 
+        Console.WriteLine("\nClientes em ordem alfabética:");
+        List<Cliente> clientesRelatorio4 = ClientesOrdemAlfabetica(clientes);
+        ImprimirClientes(clientesRelatorio4);
+
 }
