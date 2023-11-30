@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("P003-Programa")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("NET-PROVA_IND")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83399d307f083bc1e82f62706fccb26474710149")]
-[assembly: System.Reflection.AssemblyProductAttribute("P003-Programa")]
-[assembly: System.Reflection.AssemblyTitleAttribute("P003-Programa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd8dda5107bd416731890d86fadb419f0a684ebc")]
+[assembly: System.Reflection.AssemblyProductAttribute("NET-PROVA_IND")]
+[assembly: System.Reflection.AssemblyTitleAttribute("NET-PROVA_IND")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
