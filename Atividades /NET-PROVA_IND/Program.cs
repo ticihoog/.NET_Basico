@@ -170,6 +170,7 @@ class Cliente : Pessoa
 
     private bool ValidarCPF(string cpf)
     {
-        return true;
+       return cpf.Length == 11 && cpf.All(char.IsDigit);
     }
 }
+
