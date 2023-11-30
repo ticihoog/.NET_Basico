@@ -1,0 +1,5 @@
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/obj/Debug/net8.0/NET-PROVA_IND.GeneratedMSBuildEditorConfig.editorconfig
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/obj/Debug/net8.0/NET-PROVA_IND.AssemblyInfoInputs.cache
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/obj/Debug/net8.0/NET-PROVA_IND.AssemblyInfo.cs
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/obj/Debug/net8.0/NET-PROVA_IND.csproj.CoreCompileInputs.cache
+/home/ticianahoog/Residencia/NET_Basico/Atividades /NET-PROVA_IND/obj/Debug/net8.0/NET-PROVA_IND.sourcelink.json

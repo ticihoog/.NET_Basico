@@ -12,8 +12,8 @@ class Program
     advogados.Add(new Advogado("Ricardo Teixeira", new DateTime (1990, 5, 15), "12345678901", "CNA123"));
     advogados.Add(new Advogado("Dan Sampaio", new DateTime (1985, 8, 20), "98765432101", "CNA456"));
 
-    clientes.Add(new Cliente("Rita Santos", new DataTime(1988, 4, 21), "02538968518", "solteria", "professora"));
-    clientes.Add(new Cliente("Isabela Chaves", new DataTime(1986, 2 ,4), "01518715078", "casada" , "medica" ));
+    clientes.Add(new Cliente("Rita Santos", new DataTime(1988, 4, 21), "02538968518", "Solteria", "Professora"));
+    clientes.Add(new Cliente("Isabela Chaves", new DataTime(1986, 2 ,4), "01518715078", "Casada" , "Medica" ));
 
     Console.WriteLine("Advogados com idade entre 30 e 40 anos:");
     List<Advogado> advogadosRelatorio1 = AdvogadosEntreIdades(advogados, 30, 40);
