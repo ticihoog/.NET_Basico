@@ -124,3 +124,16 @@ class Advogado : Pessoa
     }
 }
 
+class Cliente : Pessoa
+{
+    public string EstadoCivil { get; set; }
+    public string Profissao { get; set; }
+public Cliente(string nome, DateTime dataNascimento, string cpf, string estadoCivil, string profissao)
+    {
+        Nome = nome;
+        DataNascimento = dataNascimento;
+        CPF = cpf;
+        EstadoCivil = estadoCivil;
+        Profissao = profissao;
+    }
+}
